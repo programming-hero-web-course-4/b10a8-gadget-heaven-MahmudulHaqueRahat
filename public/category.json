@@ -1,0 +1,69 @@
+[
+    {
+      "product_id": 1,
+      "product_title": "Dell XPS 13",
+      "product_image": "https://i.ibb.co.com/2qJy7N3/Dell-XPS-13.jpg",
+      "category": "Laptops",
+      "price": 999,
+      "description": "Compact and powerful ultrabook with high resolution display.",
+      "Specification": ["13.4-inch FHD", "Intel i7", "16GB RAM", "512GB SSD"],
+      "availability": true,
+      "rating": 4.5
+    },
+    {
+      "product_id": 7,
+      "product_title": "iPhone 14",
+      "product_image": "https://i.ibb.co.com/sP8NQWW/i-Phone-14.jpg",
+      "category": "Phones",
+      "price": 799,
+      "description": "Latest model of iPhone with enhanced features and camera.",
+      "Specification": ["6.1-inch OLED", "A15 Bionic chip", "128GB storage"],
+      "availability": true,
+      "rating": 4.9
+    },
+    {
+      "product_id": 9,
+      "product_title": "Apple AirPods Pro",
+      "product_image": "https://i.ibb.co.com/chwgvMt/Apple-Air-Pods-Pro.jpg",
+      "category": "Accessories",
+      "price": 249,
+      "description": "Wireless noise-canceling earbuds with spatial audio.",
+      "Specification": ["Active Noise Cancellation", "Spatial Audio", "MagSafe charging"],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": 11,
+      "product_title": "MacBook Air M2",
+      "product_image": "https://i.ibb.co.com/kxkK2CT/Mac-Book-Air-M2.jpg",
+      "category": "MacBook",
+      "price": 1199,
+      "description": "Lightweight laptop with M2 chip, designed for performance and efficiency.",
+      "Specification": ["13.6-inch Liquid Retina", "Apple M2", "8GB RAM", "256GB SSD"],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": 13,
+      "product_title": "iPhone 14 Pro",
+      "product_image": "https://i.ibb.co.com/wMktLW4/i-Phone-14-Pro.jpg",
+      "category": "iPhone",
+      "price": 999,
+      "description": "High-end iPhone with ProMotion display and advanced cameras.",
+      "Specification": ["6.1-inch ProMotion", "A16 Bionic chip", "128GB storage"],
+      "availability": true,
+      "rating": 4.9
+    },
+    {
+      "product_id": 17,
+      "product_title": "Apple Watch Series 9",
+      "product_image": "https://i.ibb.co.com/r605W6M/Apple-Watch-Series-9.jpg",
+      "category": "Smart Watch",
+      "price": 399,
+      "description": "Advanced smartwatch with health and fitness tracking features.",
+      "Specification": ["Always-on Retina display", "Heart rate monitor", "GPS"],
+      "availability": true,
+      "rating": 4.8
+    }
+  ]
+  
