@@ -2,8 +2,8 @@ import PropTypes from 'prop-types';
 import { NavLink } from 'react-router-dom';
 
 const Card = ({ Card }) => {
-    const { product_image, product_title, price } = Card || {}
-    console.log(Card);
+    const { product_image, product_title, price,product_id } = Card || {}
+     
     return (
         <div className="w-[282.67px] h-[340px] gap-4">
             <div className="card bg-base-100 w-64 shadow-xl">
@@ -18,7 +18,7 @@ const Card = ({ Card }) => {
                     <p className="text-gray-500">Price:{price}k</p>
                     <div className="card-actions">
 
-                        <NavLink className="btn btn-outline btn-primary">ViewDetails</NavLink>
+                        <NavLink to={`/carddetails/${product_id}`} className="btn btn-outline btn-primary">ViewDetails</NavLink>
                     </div>
                 </div>
             </div>

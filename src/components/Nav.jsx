@@ -4,10 +4,10 @@ import { Link, useLocation } from "react-router-dom";
 
 const Nav = () => {
   const location = useLocation();
-  const isWhiteBackground = location.pathname === '/Statistics' || location.pathname === '/Dashboard';
+  const isWhiteBackground = location.pathname === '/Statistics' || location.pathname === '/Dashboard'||location.pathname === '/Dashboard/Cart'||location.pathname === '/Dashboard/Whishlist';
 
   return (
-    <div className={`navbar ${isWhiteBackground ? 'bg-white' : 'bg-purple-700'} w-11/12 mx-auto rounded-t-lg mt-3`}>
+    <div className={`navbar ${isWhiteBackground ? 'bg-white' : 'bg-purple-700 mt-3'} w-11/12 mx-auto rounded-t-lg `}>
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

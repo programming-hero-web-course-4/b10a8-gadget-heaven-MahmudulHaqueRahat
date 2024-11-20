@@ -15,7 +15,7 @@ const Banner = () => {
              <img className=' w-[562px] h-[350px]   border-8' src={img} alt="" />
         </div>
         
-            {/* Catagories */}
+           
     </div>
     );
 };

@@ -1,8 +1,19 @@
-# React + Vite
+# Gadget Heaven-Livelink: assignment-8-rahat.surge.sh
+# Requirement Document Link: https://drive.google.com/file/d/1Yrbkoed1pI-DbvatJFQocq61JQDOfpzI/view?usp=sharing
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#  List of React Fundamental concepts used in the project:
+  - Components.
+  - Props.
+  - State.
+  - Hooks.
+  - React Router.
+  - Conditional Rendering.
+  - Error Handling.
+# To handle and manage data local storage was used.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+#   Five features of my website:
+ - Reusable compunent.
+ - React router.
+ - Nested route.
+ - Prop handeling. 
+ - Figma similar website.

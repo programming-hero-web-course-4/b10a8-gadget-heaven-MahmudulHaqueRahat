@@ -8,17 +8,24 @@ const Cards = () => {
     const data = useLoaderData()
     const { category } = useParams()
     const [cata, setCategory] = useState([])
-
+    
     useEffect(() => {
-        const filted = [...data].filter(categoris => categoris.category === category)
-        setCategory(filted)
+        if (category) {
+            const newdata = [...data].filter(
+                gadget => gadget.category === category)
+                setCategory(newdata);
+        }
+        else {
+            setCategory(data.slice(0,9));
+        }
+    }, [data,category])
 
-    }, [data, category])
-    console.log(cata);
+ 
+    
     return (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-5 pt-5">
             {
-                cata.map(Cards => <Card key={Cards.id} Card={Cards} />)
+                cata.map((Cards,idx) => <Card key={idx} Card={Cards} />)
             }
 
         </div>
